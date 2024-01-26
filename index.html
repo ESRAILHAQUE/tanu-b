@@ -48,7 +48,7 @@
 </head>
 
 <body class="font-poppins">
-    <header class="md:container md:mx-auto">
+    <header class="md:container md:mx-auto" id="home">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
@@ -64,7 +64,7 @@
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
-                            <li><a>News</a></li>
+                            <li><a>Review</a></li>
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
@@ -72,10 +72,10 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu text-base menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>News</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="">
@@ -187,7 +187,7 @@
 
         </section>
         <!-- latest bikes -->
-        <section class="my-24">
+        <section class="my-24" id="shop">
             <h3 class="text-5xl mb-12 font-semibold text-center">Latest Bikes</h3>
             <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- first card -->
@@ -229,7 +229,7 @@
             </div>
         </section>
         <!-- happy clients -->
-        <section class="my-24">
+        <section class="my-24" id="review">
             <h3 class="text-5xl mb-12 font-semibold text-center">Happy <span class="text-bike-primary">Clients Says</span></h3>
             <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- first review -->
@@ -356,7 +356,7 @@
                 </div>
               </div>
         </section>
-        <section class="mx-auto my-10">
+        <section class="mx-auto my-10" id="contact">
             <div class="text-center mb-7 space-y-3">
               <h2 class="text-4xl font-extrabold">Get In Touch</h2>
               <p class="font-medium">
